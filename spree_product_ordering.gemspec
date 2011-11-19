@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_product_ordering'
-  s.version     = '1.0.0'
-  s.summary     = 'Add gem summary here'
+  s.version     = '1.1.0'
+  s.summary     = 'Providers product ordering for Spree Commerce'
   #s.description = 'Add (optional) gem description here'
   s.required_ruby_version = '>= 1.8.7'
 
-  # s.author            = 'David Heinemeier Hansson'
+  s.author            = 'Cinerar, Alberto Vena, Matt Gadda'
   # s.email             = 'david@loudthinking.com'
   # s.homepage          = 'http://www.rubyonrails.org'
   # s.rubyforge_project = 'actionmailer'
@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
 
   s.has_rdoc = true
 
-  s.add_dependency('spree_core', '>= 0.30.1')
+  s.add_dependency('spree_core', '>= 0.70.1')
 end

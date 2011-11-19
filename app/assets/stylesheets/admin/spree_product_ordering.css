@@ -1,0 +1,12 @@
+li .handle {
+  cursor: move;
+  color: white;
+  background-color: black;
+  margin-right: 10px;
+}
+ul#item_list li:hover {
+  background-color: #f3f3dd;
+}
+ul#item_list {
+  cursor: pointer;
+}
