@@ -17,7 +17,7 @@ gem 'spree_product_ordering', :git => 'git://github.com/mgadda/spree_product_ord
 2. Run `bundle install`
 3. Run `rails g spree_product_order:install`
 
-It will prompt you to run a migration which adds a position field to products as well as
+It will prompt you to run a migration which adds a product_position field to products as well as
 adding dependencies in your admin/all.css and admin/all.js.
 
 Copyright (c) 2011 Matt Gadda, released under the New BSD License
